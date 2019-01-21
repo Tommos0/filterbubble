@@ -80,10 +80,10 @@ DATABASES = {
         'NAME': os.environ.get('POSTGRES_DATABASE', 'postgres'),
         'PASSWORD': os.environ.get('POSTGRES_PASSWORD', 'mysecretpassword'),
         'USER': os.environ.get('POSTGRES_USERNAME', 'postgres'),
-        'HOST': os.environ.get('POSTGRES_HOST', 'postgres'),
-        # 'HOST': os.environ.get('POSTGRES_HOST', 'localhost'),
+        'HOST': os.environ.get('POSTGRES_HOST', 'localhost'),
     }
 }
+
 
 
 # Password validation
